@@ -1,0 +1,104 @@
+# Awesome WebMCP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of resources for **WebMCP** — the W3C browser-native standard that lets websites expose structured tools directly to AI agents via `navigator.modelContext`.
+
+WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026** and shipped as an early preview in **Chrome 146 Canary** behind the `chrome://flags/#enable-webmcp-testing` flag.
+
+---
+
+## Contents
+
+- [Official Resources](#official-resources)
+- [Specification & Explainers](#specification--explainers)
+- [SDKs & Libraries](#sdks--libraries)
+- [Chrome Extensions & DevTools](#chrome-extensions--devtools)
+- [Demos & Examples](#demos--examples)
+- [Tutorials & Guides](#tutorials--guides)
+- [Videos](#videos)
+- [Articles & Blog Posts](#articles--blog-posts)
+- [X (Twitter) Threads](#x-twitter-threads)
+- [Tools & Utilities](#tools--utilities)
+
+---
+
+## Official Resources
+
+- [WebMCP Early Preview – Chrome for Developers](https://developer.chrome.com/blog/webmcp-epp) — Official Chrome blog announcing the early preview in Chrome 146 Canary.
+- [W3C WebMCP Spec](https://webmachinelearning.github.io/webmcp/) — Official W3C Draft Community Group Report (Web Machine Learning Community Group).
+- [webmachinelearning/webmcp](https://github.com/webmachinelearning/webmcp) — The official spec repository on GitHub.
+- [WebMCP Inspector – Chrome Web Store](https://chromewebstore.google.com/detail/webmcp-inspector/ddmnodehiebeklbngpeeghmcohomfimd) — Official Chrome extension to test and inspect WebMCP tools on any page.
+
+## Specification & Explainers
+
+- [WebMCP updates, clarifications, and next steps](https://patrickbrosset.com/articles/2026-02-23-webmcp-updates-clarifications-and-next-steps/) — Detailed update by Patrick Brosset (Microsoft Edge team), one of the spec co-authors.
+- [WebMCP: Official W3C Standard for AI Agent Browser Interaction](https://webmcp.link/) — Community landing page with spec overview.
+- [WebMCP in 2026: Which Browsers Support navigator.modelContext?](https://dev.to/ai-agent-economy/webmcp-in-2026-which-browsers-support-navigatormodelcontext-complete-compatibility-status-1oe4) — Browser compatibility status overview on DEV Community.
+- [Choose the right AI protocol: WebMCP vs MCP](https://x.com/ChromiumDev/status/2032460022265827793) — Chrome for Developers explanation of when to use WebMCP (ephemeral browser) vs MCP (persistent server-side).
+
+## SDKs & Libraries
+
+- [WebMCP-org/npm-packages](https://github.com/WebMCP-org/npm-packages) — NPM packages for MCP-B: transport layers, React hooks, and browser tools for the Model Context Protocol.
+- [@mcp-b/react-webmcp](https://www.npmjs.com/package/@mcp-b/react-webmcp) — React hooks for exposing tools via WebMCP in React apps.
+- [@mseep/webmcp](https://www.npmjs.com/package/@mseep/webmcp) — Lightweight WebMCP implementation for the browser.
+- [MiguelsPizza/WebMCP](https://github.com/MiguelsPizza/WebMCP) — Bringing the power of MCP to the web; one of the early polyfill implementations.
+- [keak-ai/webmcp-core](https://github.com/keak-ai/webmcp-core) — Auto-generate WebMCP tool definitions for any existing website.
+- [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) — Official Chrome Labs tooling for WebMCP development.
+
+## Chrome Extensions & DevTools
+
+- [WebMCP – Model Context Tool Inspector](https://chromewebstore.google.com/detail/webmcp-model-context-tool/gbpdfapgefenggkahomfgkhfehlcenpd) — Inspect, monitor, and execute tools exposed via `navigator.modelContext`; shows full JSON schema and lets you run tools from the DevTools panel.
+- [beaufortfrancois/model-context-tool-inspector](https://github.com/beaufortfrancois/model-context-tool-inspector) — Source code for the Model Context Tool Inspector Chrome extension.
+- [WebMCP-org/chrome-devtools-quickstart](https://github.com/WebMCP-org/chrome-devtools-quickstart) — Minimal quickstart demo for using Chrome DevTools MCP with WebMCP tools.
+
+## Demos & Examples
+
+- [WebMCP-org/examples](https://github.com/WebMCP-org/examples) — Production-ready MCP-B browser-native MCP implementation examples.
+- [WebMCP-org/webmcp-sh](https://github.com/WebMCP-org/webmcp-sh) — Web-based MCP playground for testing and developing MCP servers and clients in the browser.
+
+## Tutorials & Guides
+
+- [WebMCP Tutorial: Building Agent-Ready Websites With Chrome's New Standard – DataCamp](https://www.datacamp.com/tutorial/webmcp-tutorial) — Practical step-by-step tutorial covering both the declarative (HTML) and imperative (JS) APIs.
+- [How to Make Your Website Agent-Ready With WebMCP – ivanturkovic.com](https://www.ivanturkovic.com/2026/02/23/webmcp-tutorial-make-website-agent-ready/) — Beginner-friendly walkthrough for making a website WebMCP-ready.
+- [How to make your website agent-ready with Google's Web MCP – LogRocket](https://blog.logrocket.com/google-web-mcp/) — Practical implementation guide from the LogRocket engineering blog.
+- [Test WebMCP Tools with Chrome Model Context Inspector – MCPcat](https://mcpcat.io/guides/test-webmcp-tools-model-context-inspector/) — Guide to testing your WebMCP tool definitions using the inspector extension.
+
+## Videos
+
+- [Wes Bos – 15-min WebMCP Explainer (X)](https://x.com/wesbos/status/2023418509330387315) — Quick video walkthrough of the proposal: exposing tools via HTML form attributes and JavaScript schemas.
+
+## Articles & Blog Posts
+
+- [WebMCP is available for early preview – VentureBeat](https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a) — In-depth coverage of Chrome 146 WebMCP early preview.
+- [WebMCP turns any Chrome web page into an MCP server for AI agents – The New Stack](https://thenewstack.io/webmcp-chrome-ai-agents/) — Architecture-focused overview.
+- [WebMCP explained: How browser agents can call web tools without scraping the DOM – Scalekit](https://www.scalekit.com/blog/webmcp-the-missing-bridge-between-ai-agents-and-the-web) — Deep-dive into the protocol design and comparison with DOM scraping.
+- [Chrome's WebMCP Early Preview: the end of "AI agents clicking buttons" – DEV Community](https://dev.to/axrisi/chromes-webmcp-early-preview-the-end-of-ai-agents-clicking-buttons-b6e) — Developer perspective on why WebMCP matters.
+- [Chrome WebMCP: The Complete 2026 Guide to AI Agent Protocol – DEV Community](https://dev.to/czmilo/chrome-webmcp-the-complete-2026-guide-to-ai-agent-protocol-1ae9) — Comprehensive guide covering both APIs, use cases, and browser support.
+- [WebMCP: Making the Web AI-Agent Ready – DEV Community](https://dev.to/sunny7899/webmcp-making-the-web-ai-agent-ready-5152) — Focused on practical integration for existing sites.
+- [WebMCP (Web Model Context Protocol): Agents are learning to browse better – Medium](https://abvijaykumar.medium.com/webmcp-web-model-context-protocol-agents-are-learning-to-browse-better-22fcefc981d7) — Overview of the standard's benefits over vision-based browsing.
+- [Google AI Introduces the WebMCP – MarkTechPost](https://www.marktechpost.com/2026/02/14/google-ai-introduces-the-webmcp-to-enable-direct-and-structured-website-interactions-for-new-ai-agents/) — ML-focused coverage of the WebMCP announcement.
+- [WebMCP explained: Inside Chrome 146's agent-ready web preview – Search Engine Land](https://searchengineland.com/webmcp-explained-inside-chrome-146s-agent-ready-web-preview-470630) — SEO & search perspective on how WebMCP affects discoverability.
+- [WebMCP: make your website agent-ready for AI in 2026 – Vydera](https://vydera.com/en/lab/webmcp-site-agent-ready-visibility) — Business and visibility angle of adopting WebMCP.
+
+## X (Twitter) Threads
+
+- [Chrome for Developers – Declarative API deep-dive 🧵](https://x.com/ChromiumDev/status/2024932531032789187) — Thread covering the HTML-based declarative API for form-based tasks.
+- [Maximiliano Firtman – Chrome 146 WebMCP flag walkthrough](https://x.com/firt/status/2020903127428313461) — Hands-on look at enabling and testing WebMCP in Chrome Canary.
+- [Liad Yosef – "WebMCP is here 🤯"](https://x.com/liadyosef/status/2021151526375268643) — Developer reaction and analysis of how WebMCP complements MCP Apps.
+- [Carlos Azaustre – "Google acaba de meter MCP dentro de Chrome"](https://x.com/carlosazaustre/status/2021246897868980307) — Spanish-language technical breakdown of `navigator.modelContext.registerTool()`.
+- [Eiji Kitamura – Japanese overview of WebMCP APIs](https://x.com/agektmr/status/2021485868507332761) — Summary in Japanese of declarative and imperative APIs.
+- [Sheing Ng – 15-second demo + setup steps](https://x.com/sashimikun_void/status/2021474668805526009) — Step-by-step: download Canary, enable flag, install extension, see it work.
+- [am.will – WebMCP controlling main Chrome instance](https://x.com/LLMJunky/status/2036854508597432826) — Demo of using WebMCP on a live, non-sandboxed browser session.
+
+## Tools & Utilities
+
+- [WebMCP Checker](https://webmcp-checker.com/) — Free online tool to check if any website exposes WebMCP tools.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
