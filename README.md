@@ -36,6 +36,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP: Official W3C Standard for AI Agent Browser Interaction](https://webmcp.link/) — Community landing page with spec overview.
 - [WebMCP in 2026: Which Browsers Support navigator.modelContext?](https://dev.to/ai-agent-economy/webmcp-in-2026-which-browsers-support-navigatormodelcontext-complete-compatibility-status-1oe4) — Browser compatibility status overview on DEV Community.
 - [Choose the right AI protocol: WebMCP vs MCP](https://x.com/ChromiumDev/status/2032460022265827793) — Chrome for Developers explanation of when to use WebMCP (ephemeral browser) vs MCP (persistent server-side).
+- [The Complete Agentic Web Standards Map 2026: WebMCP, MCP, LLMFeed, and Beyond – WellKnownMCP](https://wellknownmcp.org/en/news/2026-02-15-agentic-web-standards-map-2026-complete-guide) — Comprehensive map of the three-layer AI protocol stack (MCP for tools, A2A for agents, WebMCP for web access) showing how WebMCP fits into the broader agentic web ecosystem.
 
 ## SDKs & Libraries
 
@@ -99,6 +100,10 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP Is AWESOME: Browser-Native Tools for AI Agents – Medium](https://medium.com/@springmusk/webmcp-is-awesome-browser-native-tools-for-ai-agents-53bf10f2f520) — Enthusiast overview of WebMCP's declarative and imperative APIs with practical examples.
 - [Google Chrome Releases Early Preview Of WebMCP – Search Engine Roundtable](https://www.seroundtable.com/google-webmcp-40918.html) — Search marketing community coverage; includes Dan Petrovic's take that WebMCP is the biggest shift in technical SEO since structured data.
 - [Chrome's Built-In MCP Server: Use It in Your Workflow – ComputeLeap](https://www.computeleap.com/blog/chrome-built-in-mcp-server-native-mcp-v2-2026/) — Practical guide to integrating Chrome's native MCP (WebMCP + Chrome DevTools MCP) into AI-powered developer workflows.
+- [WebMCP – a much needed way to make agents play with rather than against the web – Christian Heilmann](https://christianheilmann.com/2026/02/16/webmcp-a-much-needed-way-to-make-agents-play-with-rather-than-against-the-web/) — Influential developer advocate (ex-Mozilla, ex-Microsoft) argues that WebMCP repairs the predatory relationship between agentic AI and the web by giving agents a structured contract instead of forcing them to impersonate human users.
+- [Google's WebMCP Protocol: Everything You Need To Know – Dataconomy](https://dataconomy.com/2026/02/25/google-webmcp-protocol-everything-you-need-to-know/) — Comprehensive overview from a data and tech journalism angle covering the spec history, API design, and enterprise implications.
+- [WebMCP Security: Why Every Browser Session Is About to Carry More Power – Valence Security](https://www.valencesecurity.com/resources/blogs/webmcp-browser-security) — Security-focused analysis explaining why WebMCP dramatically expands the blast radius of a compromised browser session and what SaaS security teams should watch for.
+- [WebMCP in Early Preview: Google Prepares for the Era of Agentic AI – Delante](https://delante.co/webmcp-in-early-preview/) — SEO/SEM agency perspective covering how WebMCP changes technical SEO, structured data strategies, and organic visibility for sites that adopt it early.
 - [WebMCP: A New Contract Between AI Agents and Websites – DEV Community](https://dev.to/playfulprogramming/webmcp-a-new-contract-between-ai-agents-and-websites-4g07) — Conceptual deep-dive into how WebMCP redefines the relationship between web apps and autonomous agents.
 - [Future of Internet Crawling: WebMCP – DEV Community](https://dev.to/devanshhh/future-of-internet-crawling-webmcp-m95) — Explores how WebMCP could replace traditional web crawling and scraping for AI-driven data collection.
 
@@ -125,6 +130,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 ## Tools & Utilities
 
 - [WebMCP Checker](https://webmcp-checker.com/) — Free online tool to check if any website exposes WebMCP tools.
+- [WebMCP Cheat Sheet – Webfuse](https://www.webfuse.com/webmcp-cheat-sheet) — Quick-reference card covering the full W3C Browser AI Tool API: declarative HTML attributes, imperative `navigator.modelContext` calls, manifest format, and common pitfalls.
 
 ---
 
