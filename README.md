@@ -76,6 +76,9 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 ## Videos
 
 - [Wes Bos – 15-min WebMCP Explainer (X)](https://x.com/wesbos/status/2023418509330387315) — Quick video walkthrough of the proposal: exposing tools via HTML form attributes and JavaScript schemas.
+- [The Why and How of WebMCP – Alex Nahas (YouTube)](https://www.youtube.com/watch?v=YVWgoXWSvmk) — Alex Nahas, the creator of WebMCP, explains the origin story and the design decisions behind the standard.
+- [WebMCP: Agents on the Web and in the Browser (YouTube)](https://www.youtube.com/watch?v=6Po39iD6Pfs) — Deep-dive session with Alex Nahas covering how WebMCP enables client-side tool exposure without a separate MCP server.
+- [NEW Browser API That Makes AI Agents Actually Work – WebMCP (YouTube)](https://www.youtube.com/watch?v=jI2mYU8-PqU) — Accessible explainer of the Google/Microsoft-backed proposal and a live demo of the declarative and imperative APIs.
 
 ## Articles & Blog Posts
 
@@ -106,6 +109,11 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP in Early Preview: Google Prepares for the Era of Agentic AI – Delante](https://delante.co/webmcp-in-early-preview/) — SEO/SEM agency perspective covering how WebMCP changes technical SEO, structured data strategies, and organic visibility for sites that adopt it early.
 - [WebMCP: A New Contract Between AI Agents and Websites – DEV Community](https://dev.to/playfulprogramming/webmcp-a-new-contract-between-ai-agents-and-websites-4g07) — Conceptual deep-dive into how WebMCP redefines the relationship between web apps and autonomous agents.
 - [Future of Internet Crawling: WebMCP – DEV Community](https://dev.to/devanshhh/future-of-internet-crawling-webmcp-m95) — Explores how WebMCP could replace traditional web crawling and scraping for AI-driven data collection.
+- [WebMCP: Making Every Website a Tool for AI Agents – Arcade.dev](https://www.arcade.dev/blog/web-mcp-alex-nahas-interview/) — Interview with Alex Nahas (WebMCP creator) tracing how an Amazon agent auth hack became a W3C standard; includes the full origin story and design rationale.
+- [Implementing WebMCP: letting AI agents interact with my website – Richard MacManus](https://ricmac.org/2026/03/11/webmcp-ai-agents-interact-website/) — First-hand account of adding WebMCP to a personal site, with notes on pitfalls and the developer experience.
+- [WebMCP: What Is It, And Why Should SEOs Care? – Similarweb](https://www.similarweb.com/blog/marketing/geo/webmcp/) — Enterprise SEO and traffic analytics perspective on how WebMCP shifts discoverability from human visitors to AI agents.
+- [WebMCP Browser Status 2026: Chrome 146 Only, Edge Coming, Firefox at 8–12 Weeks – Hashnode](https://ai-agent-economy.hashnode.dev/webmcp-browser-status-2026-chrome-146-only-edge-coming-firefox-at-8-12-weeks) — Developer-focused breakdown of where each major browser stands on WebMCP adoption and estimated timelines.
+- [Google previews WebMCP, a new protocol for AI agent interactions – Search Engine Land](https://searchengineland.com/google-releases-preview-of-webmcp-how-ai-agents-interact-with-websites-469024) — News coverage and analysis of the early preview launch from Search Engine Land's editorial team.
 
 ## X (Twitter) Threads
 
@@ -121,6 +129,10 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - ["Arranca la era del Frontend para agentes con WebMCP" – Maximiliano Firtman](https://x.com/maxifirtman/status/2021189001365877180) — Spanish-language thread heralding the dawn of agent-first frontend development with WebMCP.
 - [Chinese overview: 當大家都重新打造給 AI 看的標準 – fox hsiao](https://x.com/pirrer/status/2022591448781328608) — Chinese-language breakdown of WebMCP as a standard for AI agents, comparing it to existing site interaction models.
 - [Polish technical summary of WebMCP – Leszek Bukowski](https://x.com/LeszBuk/status/2021290109417439642) — Polish-language thread on WebMCP as a new AI-agent interface that could replace the traditional human-facing UI.
+- [Miguel Ángel Durán – "¡La web va a cambiar para siempre con WebMCP!"](https://x.com/midudev/status/2021599130624143689) — Spanish-language thread by popular dev educator midudev (1M+ followers) explaining how WebMCP replaces fragile DOM scraping with structured tools.
+- [Codely – "WebMCP es lo mejor que le ha pasado a HTML desde HTML5"](https://x.com/CodelyTV/status/2022267271041700080) — Spanish coding education platform breaks down how adding just two HTML attributes is enough to make a form agent-ready.
+- [Glenn Gabe – "This is a big deal. Agents can bypass the UI via WebMCP"](https://x.com/glenngabe/status/2021582770326159477) — SEO industry veteran and Google algorithm analyst flags WebMCP as a turning point for technical SEO and agentic search.
+- [su8 / denchu – Japanese overview of the early preview](https://x.com/__su888/status/2028593440234287578) — Concise Japanese-language summary of the WebMCP early preview: declarative/imperative APIs, use cases, and where to sign up.
 
 ## Platform Integrations
 
