@@ -129,10 +129,10 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - ["Arranca la era del Frontend para agentes con WebMCP" – Maximiliano Firtman](https://x.com/maxifirtman/status/2021189001365877180) — Spanish-language thread heralding the dawn of agent-first frontend development with WebMCP.
 - [Chinese overview: 當大家都重新打造給 AI 看的標準 – fox hsiao](https://x.com/pirrer/status/2022591448781328608) — Chinese-language breakdown of WebMCP as a standard for AI agents, comparing it to existing site interaction models.
 - [Polish technical summary of WebMCP – Leszek Bukowski](https://x.com/LeszBuk/status/2021290109417439642) — Polish-language thread on WebMCP as a new AI-agent interface that could replace the traditional human-facing UI.
-- [Miguel Ángel Durán – "¡La web va a cambiar para siempre con WebMCP!"](https://x.com/midudev/status/2021599130624143689) — Spanish-language thread by popular dev educator midudev (1M+ followers) explaining how WebMCP replaces fragile DOM scraping with structured tools.
-- [Codely – "WebMCP es lo mejor que le ha pasado a HTML desde HTML5"](https://x.com/CodelyTV/status/2022267271041700080) — Spanish coding education platform breaks down how adding just two HTML attributes is enough to make a form agent-ready.
-- [Glenn Gabe – "This is a big deal. Agents can bypass the UI via WebMCP"](https://x.com/glenngabe/status/2021582770326159477) — SEO industry veteran and Google algorithm analyst flags WebMCP as a turning point for technical SEO and agentic search.
-- [su8 / denchu – Japanese overview of the early preview](https://x.com/__su888/status/2028593440234287578) — Concise Japanese-language summary of the WebMCP early preview: declarative/imperative APIs, use cases, and where to sign up.
+- ["¡La web va a cambiar para siempre con WebMCP!" – Miguel Ángel Durán](https://x.com/midudev/status/2021599130624143689) — Spanish-language thread by popular dev educator midudev (1M+ followers) explaining how WebMCP replaces fragile DOM scraping with structured tools.
+- ["WebMCP es lo mejor que le ha pasado a HTML desde HTML5" – Codely](https://x.com/CodelyTV/status/2022267271041700080) — Spanish coding education platform breaks down how adding just two HTML attributes is enough to make a form agent-ready.
+- ["This is a big deal. Agents can bypass the UI via WebMCP" – Glenn Gabe](https://x.com/glenngabe/status/2021582770326159477) — SEO industry veteran and Google algorithm analyst flags WebMCP as a turning point for technical SEO and agentic search.
+- [Japanese overview of the early preview – su8 / denchu](https://x.com/__su888/status/2028593440234287578) — Concise Japanese-language summary of the WebMCP early preview: declarative/imperative APIs, use cases, and where to sign up.
 
 ## Platform Integrations
 
