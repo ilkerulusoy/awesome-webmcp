@@ -55,6 +55,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [Chrome DevTools (MCP) for your AI agent – Chrome for Developers](https://developer.chrome.com/blog/chrome-devtools-mcp) — Official blog post introducing the Chrome DevTools MCP server that lets coding agents (Claude, Cursor, Copilot, Gemini) control and inspect a live Chrome instance.
 - [ChromeDevTools/chrome-devtools-mcp – GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) — Official Chrome DevTools MCP server that gives AI coding assistants access to network analysis, console logs, performance tracing, and browser automation via Puppeteer.
 - [Web MCP: Browser MCP Service – Chrome Web Store](https://chromewebstore.google.com/detail/web-mcp-browser-mcp-servi/acdlpjcmkabbmhpibedepbfdankiagoc) — Chrome extension that exposes browser automation capabilities as an MCP server, enabling AI agents to control the browser directly.
+- [hangwin/mcp-chrome – GitHub](https://github.com/hangwin/mcp-chrome) — Chrome extension-based MCP server that exposes browser functionality (automation, content analysis, semantic search) to AI assistants like Claude; community-built complement to the official Chrome DevTools MCP.
 
 ## Demos & Examples
 
@@ -113,6 +114,8 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP: Making the Web Deterministic for AI Agents – Medium](https://senoritadeveloper.medium.com/webmcp-making-the-web-deterministic-for-ai-agents-9f42dba425a3) — Nil Seri's engineering-focused take on how WebMCP replaces probabilistic DOM guessing with deterministic, schema-driven agent interactions.
 - [Google Chrome Ships WebMCP, Turning Websites Into AI Agent Tools – WinBuzzer](https://winbuzzer.com/2026/02/13/google-chrome-webmcp-early-preview-ai-agents-xcxwbn/) — Enterprise Windows-focused news coverage of the WebMCP early preview launch.
 - [WebMCP Explained: How AI Agents Will Interact Directly with Websites – Locomotive Agency](https://locomotive.agency/blog/webmcp-ai-agents-website-functions/) — Digital-agency perspective on the protocol design and what it means for teams building client sites.
+- [Google previews WebMCP, a new protocol for AI agent interactions – Search Engine Land](https://searchengineland.com/google-releases-preview-of-webmcp-how-ai-agents-interact-with-websites-469024) — Primary announcement coverage by Search Engine Land, quoting Google's André Cipriani Bandarra on how WebMCP gives agents a standard way to perform structured actions on any site.
+- [What Is WebMCP? The Web Standard That Makes Your Website AI-Agent Ready – Searchable](https://www.searchable.com/blog/what-is-webmcp) — Concise explainer covering the W3C draft, declarative vs. imperative APIs, and practical steps for making an existing site agent-ready.
 
 ## X (Twitter) Threads
 
@@ -125,6 +128,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [Japanese deep-dive: ブラウザがMCPサーバーになる – Mojofull](https://x.com/furoku/status/2021380025895846218) — Technical breakdown in Japanese of how WebMCP turns the browser into an MCP server and what it means for frontend engineers.
 - [Sheing Ng – 15-second demo + setup steps](https://x.com/sashimikun_void/status/2021474668805526009) — Step-by-step: download Canary, enable flag, install extension, see it work.
 - [am.will – WebMCP controlling main Chrome instance](https://x.com/LLMJunky/status/2036854508597432826) — Demo of using WebMCP on a live, non-sandboxed browser session.
+- [Glenn Gabe – "This is a big deal. Agents can bypass the UI via WebMCP"](https://x.com/glenngabe/status/2021582770326159477) — SEO professional's reaction to the early preview; highlights the significance of agents being able to skip the human UI layer entirely.
 - ["Arranca la era del Frontend para agentes con WebMCP" – Maximiliano Firtman](https://x.com/maxifirtman/status/2021189001365877180) — Spanish-language thread heralding the dawn of agent-first frontend development with WebMCP.
 - [Chinese overview: 當大家都重新打造給 AI 看的標準 – fox hsiao](https://x.com/pirrer/status/2022591448781328608) — Chinese-language breakdown of WebMCP as a standard for AI agents, comparing it to existing site interaction models.
 - [Polish technical summary of WebMCP – Leszek Bukowski](https://x.com/LeszBuk/status/2021290109417439642) — Polish-language thread on WebMCP as a new AI-agent interface that could replace the traditional human-facing UI.
