@@ -46,6 +46,10 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [MiguelsPizza/WebMCP](https://github.com/MiguelsPizza/WebMCP) — Bringing the power of MCP to the web; one of the early polyfill implementations.
 - [keak-ai/webmcp-core](https://github.com/keak-ai/webmcp-core) — Auto-generate WebMCP tool definitions for any existing website.
 - [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) — Official Chrome Labs tooling for WebMCP development.
+- [MCPCat/webmcp-react](https://github.com/mcpcat/webmcp-react) — React hooks for exposing your app's functionality as WebMCP tools; transport-agnostic, SSR-safe, Strict Mode safe, and W3C spec-aligned. Works with Next.js and Remix.
+- [hemanth/webmcp-bridge](https://github.com/hemanth/webmcp-bridge) — Browser app that turns remote MCP servers into browser-usable tool context, discovering and registering their capabilities via `navigator.modelContext`.
+- [hemanth/webmcp-connect](https://github.com/hemanth/webmcp-connect) — Connect any MCP server to Chrome's WebMCP API; bridges existing MCP tooling into the browser's native `navigator.modelContext` interface.
+- [littleplato/webmcp-cdp-bridge](https://github.com/littleplato/webmcp-cdp-bridge) — Local bridge (Bun + TypeScript, MCP over stdio) that exposes `navigator.modelContext` tools registered in a browser tab as MCP tools for Claude Desktop, Claude Code, and Cursor via Chrome DevTools Protocol.
 
 ## Chrome Extensions & DevTools
 
@@ -55,6 +59,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [Chrome DevTools (MCP) for your AI agent – Chrome for Developers](https://developer.chrome.com/blog/chrome-devtools-mcp) — Official blog post introducing the Chrome DevTools MCP server that lets coding agents (Claude, Cursor, Copilot, Gemini) control and inspect a live Chrome instance.
 - [ChromeDevTools/chrome-devtools-mcp – GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) — Official Chrome DevTools MCP server that gives AI coding assistants access to network analysis, console logs, performance tracing, and browser automation via Puppeteer.
 - [Web MCP: Browser MCP Service – Chrome Web Store](https://chromewebstore.google.com/detail/web-mcp-browser-mcp-servi/acdlpjcmkabbmhpibedepbfdankiagoc) — Chrome extension that exposes browser automation capabilities as an MCP server, enabling AI agents to control the browser directly.
+- [WebMCP Bridge – Chrome Web Store](https://chromewebstore.google.com/detail/webmcp-bridge/kghhldphcmpiimophipabdhldfipgiio) — Chrome extension that bridges `navigator.modelContext` tools to any MCP client (Claude, Cursor, Windsurf) via local WebSocket; includes a plugin marketplace for injecting bridge scripts on sites without native WebMCP.
 
 ## Demos & Examples
 
@@ -72,6 +77,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [How to Implement WebMCP: A Step-by-Step Guide with Best Practices for Chrome 146+ – Halmob](https://halmob.com/blog/implementing-webmcp-chrome-146) — Practical Next.js walkthrough covering declarative HTML attributes, imperative `navigator.modelContext.registerTool()`, manifest discovery, and common pitfalls.
 - [Build Your First WebMCP Application (Step-by-Step Developer Tutorial) – DEV Community](https://dev.to/salamexperts/build-your-first-webmcp-application-step-by-step-developer-tutorial-291o) — Hands-on walkthrough registering tools with both declarative and imperative APIs from scratch.
 - [WebMCP and WebAI: Exploring native AI tools in Chrome – DEV Community](https://dev.to/kevin-uehara/webmcp-and-webai-exploring-native-ai-tools-in-chrome-4ocf) — Side-by-side look at WebMCP and Chrome's built-in AI (Prompt API / WebAI) and how they complement each other.
+- [Connect WebMCP Browser Tools to Claude Code – MCPcat](https://mcpcat.io/guides/connect-webmcp-tools-claude-code-bridge-extension/) — Step-by-step guide to bridging `navigator.modelContext` tools registered in a live browser tab into Claude Code via the WebMCP Bridge extension.
 
 ## Videos
 
@@ -106,6 +112,9 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP in Early Preview: Google Prepares for the Era of Agentic AI – Delante](https://delante.co/webmcp-in-early-preview/) — SEO/SEM agency perspective covering how WebMCP changes technical SEO, structured data strategies, and organic visibility for sites that adopt it early.
 - [WebMCP: A New Contract Between AI Agents and Websites – DEV Community](https://dev.to/playfulprogramming/webmcp-a-new-contract-between-ai-agents-and-websites-4g07) — Conceptual deep-dive into how WebMCP redefines the relationship between web apps and autonomous agents.
 - [Future of Internet Crawling: WebMCP – DEV Community](https://dev.to/devanshhh/future-of-internet-crawling-webmcp-m95) — Explores how WebMCP could replace traditional web crawling and scraping for AI-driven data collection.
+- [WebMCP: Making Every Website a Tool for AI Agents – Arcade.dev](https://www.arcade.dev/blog/web-mcp-alex-nahas-interview/) — Interview with Alex Nahas examining how WebMCP shifts AI-agent web interaction from brittle DOM hacks to structured, callable tool contracts.
+- [Google's WebMCP: The New Language of the Agentic Web – TechBriefly](https://techbriefly.com/2026/02/25/googles-webmcp-the-new-language-of-the-agentic-web/) — Explains how WebMCP's Declarative and Imperative APIs let websites advertise capabilities as a machine-readable "tool contract", replacing screenshot-based agent interaction.
+- [WebMCP Chrome API: AI Agents Get Direct Website Access – AdwaitX](https://www.adwaitx.com/webmcp-chrome-api-ai-agents/) — Practical overview of how the WebMCP Chrome API lets AI agents call typed functions instead of inferring cursor movements from screenshots.
 
 ## X (Twitter) Threads
 
@@ -126,6 +135,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 
 - [Cloudflare Browser Run adds WebMCP support – Changelog](https://developers.cloudflare.com/changelog/post/2026-04-15-br-webmcp/) — April 15, 2026 changelog entry: Cloudflare Browser Run gains WebMCP support, letting agents call `navigator.modelContextTesting.listTools()` and `executeTool()` on WebMCP-enabled pages via a Chrome beta pool.
 - [WebMCP – Cloudflare Browser Run docs](https://developers.cloudflare.com/browser-run/features/webmcp/) — Official Cloudflare documentation for using WebMCP within Browser Run sessions; covers tool discovery, execution, and human-in-the-loop confirmations.
+- [Microsoft Edge 147 Web Platform Release Notes – Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/147) — Official Edge 147 release notes (April 2026) confirming Microsoft Edge's implementation of `navigator.modelContext` WebMCP support, the second major browser to ship the standard.
 
 ## Tools & Utilities
 
