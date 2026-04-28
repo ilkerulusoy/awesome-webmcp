@@ -17,6 +17,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [Videos](#videos)
 - [Articles & Blog Posts](#articles--blog-posts)
 - [X (Twitter) Threads](#x-twitter-threads)
+- [Community Discussions](#community-discussions)
 - [Platform Integrations](#platform-integrations)
 - [Tools & Utilities](#tools--utilities)
 
@@ -68,6 +69,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 ## Tutorials & Guides
 
 - [WebMCP Tutorial: Building Agent-Ready Websites With Chrome's New Standard – DataCamp](https://www.datacamp.com/tutorial/webmcp-tutorial) — Practical step-by-step tutorial covering both the declarative (HTML) and imperative (JS) APIs.
+- [I Added WebMCP to My Blog 19 Days After It Shipped. Here's the Exact Code. – DEV Community](https://dev.to/chudi_nnorukam/i-added-webmcp-to-my-blog-19-days-after-it-shipped-heres-the-exact-code-4agb) — First-person account of a real-world WebMCP integration written 19 days post-launch, using only the W3C spec draft, one npm package, and ninety minutes.
 - [How to Make Your Website Agent-Ready With WebMCP – ivanturkovic.com](https://www.ivanturkovic.com/2026/02/23/webmcp-tutorial-make-website-agent-ready/) — Beginner-friendly walkthrough for making a website WebMCP-ready.
 - [Prepare Your Website For WebMCP: A Step-By-Step Implementation Checklist – Discovered Labs](https://discoveredlabs.com/blog/prepare-your-website-for-webmcp-a-step-by-step-implementation-checklist) — Actionable checklist covering tool registration, manifest discovery, capability declaration, and pre-launch testing.
 - [How to make your website agent-ready with Google's Web MCP – LogRocket](https://blog.logrocket.com/google-web-mcp/) — Practical implementation guide from the LogRocket engineering blog.
@@ -80,6 +82,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 ## Videos
 
 - [Wes Bos – 15-min WebMCP Explainer (X)](https://x.com/wesbos/status/2023418509330387315) — Quick video walkthrough of the proposal: exposing tools via HTML form attributes and JavaScript schemas.
+- [//127 – News Février 2026: du WebMCP, des agents spammeurs et du Markdown (YouTube)](https://www.youtube.com/watch?v=Uwq-TIg580Q) — French-language podcast episode (Double Slash) covering the WebMCP early preview alongside February 2026 AI news.
 - [The Why and How of WebMCP – Alex Nahas (YouTube)](https://www.youtube.com/watch?v=YVWgoXWSvmk) — Alex Nahas, the creator of WebMCP, explains the origin story and the design decisions behind the standard.
 - [WebMCP: Agents on the Web and in the Browser (YouTube)](https://www.youtube.com/watch?v=6Po39iD6Pfs) — Deep-dive session with Alex Nahas covering how WebMCP enables client-side tool exposure without a separate MCP server.
 - [NEW Browser API That Makes AI Agents Actually Work – WebMCP (YouTube)](https://www.youtube.com/watch?v=jI2mYU8-PqU) — Accessible explainer of the Google/Microsoft-backed proposal and a live demo of the declarative and imperative APIs.
@@ -114,6 +117,10 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP in Early Preview: Google Prepares for the Era of Agentic AI – Delante](https://delante.co/webmcp-in-early-preview/) — SEO/SEM agency perspective covering how WebMCP changes technical SEO, structured data strategies, and organic visibility for sites that adopt it early.
 - [WebMCP: A New Contract Between AI Agents and Websites – DEV Community](https://dev.to/playfulprogramming/webmcp-a-new-contract-between-ai-agents-and-websites-4g07) — Conceptual deep-dive into how WebMCP redefines the relationship between web apps and autonomous agents.
 - [Future of Internet Crawling: WebMCP – DEV Community](https://dev.to/devanshhh/future-of-internet-crawling-webmcp-m95) — Explores how WebMCP could replace traditional web crawling and scraping for AI-driven data collection.
+- [WebMCP Explained: The New Standard That Turns Websites Into APIs for AI Agents – DEV Community](https://dev.to/lazyasscoder/webmcp-explained-the-new-standard-that-turns-websites-into-apis-for-ai-agents-38l) — Concise explainer comparing WebMCP's structured-tool model to traditional REST APIs and DOM scraping.
+- [WebMCP: Making the Web Deterministic for AI Agents – Medium](https://senoritadeveloper.medium.com/webmcp-making-the-web-deterministic-for-ai-agents-9f42dba425a3) — Nil Seri argues that WebMCP's typed schemas and explicit tool contracts eliminate the non-determinism that makes DOM-scraping agents unreliable.
+- [WebMCP: Your AI, Every Website — The Web's New Power Shift – Medium](https://medium.com/@vinesheg/webmcp-your-ai-every-website-the-webs-new-power-shift-97ad7c60c716) — Overview of how WebMCP shifts power to users by letting any AI assistant act on any site without site-specific plugins.
+- [Google's WebMCP: The New Language of the Agentic Web – TechBriefly](https://techbriefly.com/2026/02/25/googles-webmcp-the-new-language-of-the-agentic-web/) — News analysis positioning WebMCP as the emerging lingua franca between AI agents and the modern web.
 - [Google previews WebMCP, a new protocol for AI agent interactions – Search Engine Land](https://searchengineland.com/google-releases-preview-of-webmcp-how-ai-agents-interact-with-websites-469024) — Early coverage of the announcement with focus on what it means for search and crawling.
 - [Chrome's WebMCP could end AI agents' pixel-parsing nightmare – PPC.land](https://ppc.land/chromes-webmcp-could-end-ai-agents-pixel-parsing-nightmare/) — PPC industry perspective on how structured tool calls replace fragile screenshot-based automation.
 - [What is WebMCP? The New Protocol for AI-Optimized SEO in 2026 – NEURONwriter](https://neuronwriter.com/what-is-webmcp-ai-optimized-seo-2026/) — SEO content-tool perspective explaining how WebMCP shifts search optimization from keywords to structured capability declarations.
@@ -151,6 +158,15 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - ["Arranca la era del Frontend para agentes con WebMCP" – Maximiliano Firtman](https://x.com/maxifirtman/status/2021189001365877180) — Spanish-language thread heralding the dawn of agent-first frontend development with WebMCP.
 - [Chinese overview: 當大家都重新打造給 AI 看的標準 – fox hsiao](https://x.com/pirrer/status/2022591448781328608) — Chinese-language breakdown of WebMCP as a standard for AI agents, comparing it to existing site interaction models.
 - [Polish technical summary of WebMCP – Leszek Bukowski](https://x.com/LeszBuk/status/2021290109417439642) — Polish-language thread on WebMCP as a new AI-agent interface that could replace the traditional human-facing UI.
+- ["¡La web va a cambiar para siempre con WebMCP!" – Miguel Ángel Durán (midudev)](https://x.com/midudev/status/2021599130624143689) — Spanish-language thread by one of the most-followed Spanish dev educators, explaining structured tools and the end of fragile DOM scraping.
+- [WebMCP early-preview Japanese summary – su8 / denchu](https://x.com/__su888/status/2028593440234287578) — Japanese concise breakdown of the Chrome 146 early-preview release, linking the official announcement.
+
+## Community Discussions
+
+- [WebMCP Proposal – Hacker News](https://news.ycombinator.com/item?id=47037501) — Early HN thread on the initial WebMCP proposal; developers debate the API design, security surface, and comparison with existing browser automation approaches.
+- [WebMCP – a much needed way to make agents play with rather than against the web – Hacker News](https://news.ycombinator.com/item?id=47063437) — Discussion triggered by Christian Heilmann's post; focuses on the philosophical shift from adversarial scraping to cooperative structured tools.
+- [Ask HN: What Is the Point of WebMCP? – Hacker News](https://news.ycombinator.com/item?id=47085076) — Community thread critically examining WebMCP's practical value versus existing headless-browser and MCP server approaches.
+- [WebMCP is available for early preview – Hacker News](https://news.ycombinator.com/item?id=47211249) — HN discussion of the Chrome 146 early-preview announcement; top comments cover auth, trust model, and real-world adoption scenarios.
 - [Glenn Gabe – "Agents can bypass the UI via WebMCP"](https://x.com/glenngabe/status/2021582770326159477) — SEO expert calls it "a big deal," emphasizing the implications for structured data and organic visibility.
 - [su8 / denchu – Japanese summary of the early preview announcement](https://x.com/__su888/status/2028593440234287578) — Concise Japanese breakdown of the declarative and imperative APIs and the travel/e-commerce use cases Google highlighted.
 - ["¡La web va a cambiar para siempre con WebMCP!" – Miguel Ángel Durán](https://x.com/midudev/status/2021599130624143689) — Spanish-language thread by popular dev educator midudev (1M+ followers) explaining how WebMCP replaces fragile DOM scraping with structured tools.
@@ -166,6 +182,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 
 - [Cloudflare Browser Run adds WebMCP support – Changelog](https://developers.cloudflare.com/changelog/post/2026-04-15-br-webmcp/) — April 15, 2026 changelog entry: Cloudflare Browser Run gains WebMCP support, letting agents call `navigator.modelContextTesting.listTools()` and `executeTool()` on WebMCP-enabled pages via a Chrome beta pool.
 - [WebMCP – Cloudflare Browser Run docs](https://developers.cloudflare.com/browser-run/features/webmcp/) — Official Cloudflare documentation for using WebMCP within Browser Run sessions; covers tool discovery, execution, and human-in-the-loop confirmations.
+- [AI Connect for XenForo – WebMCP Bridge](https://xenforo.com/community/resources/ai-connect-for-xenforo-webmcp-bridge.10336/) — XenForo add-on that exposes forum capabilities (thread search, post retrieval, user info) as WebMCP tools with OAuth 2.0 + PKCE authentication, shipping with built-in client configs for Claude, ChatGPT, Copilot, Gemini, and more.
 - [Microsoft Edge 147 web platform release notes – Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/147) — Official April 2026 Edge release notes confirming `navigator.modelContext` support behind the WebMCP flag in Edge 147.
 - [Web MCP: Browser MCP Service – Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/web-mcp/cbinlhgpgklfdmnocjjfmaehlgnffeil) — Edge Add-ons listing for the Web MCP extension, enabling AI agent browser automation on Microsoft Edge.
 - [Microsoft Edge 147 Web Platform Release Notes – Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/147) — Official April 2026 Edge 147 release notes documenting WebMCP support landing in Microsoft's browser alongside Chrome.
