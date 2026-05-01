@@ -70,6 +70,8 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP-org/webmcp-sh](https://github.com/WebMCP-org/webmcp-sh) — Web-based MCP playground for testing and developing MCP servers and clients in the browser.
 - [Halmob Contact Page – Live WebMCP Example](https://halmob.com/contact) — Real-world contact form with WebMCP implemented; AI agents on Chrome 146+ can discover and submit it via both declarative and imperative pathways.
 - [nearform/web-agents – GitHub](https://github.com/nearform/web-agents) — Agents in the browser combining WebMCP and Chrome's Prompt API to demonstrate how a local on-device model can interact with page-level WebMCP tools.
+- [jherr/webmcp-demo – GitHub](https://github.com/jherr/webmcp-demo) — Demo code companion to Jack Herrington's "WebMCP is MCP for Single Page Apps!" video; minimal SPA showcasing imperative `navigator.modelContext.registerTool()` usage.
+- [jeevanism/webmcp-ucp – GitHub](https://github.com/jeevanism/webmcp-ucp) — Demo mini-shop showing how WebMCP and UCP (Universal Commerce Protocol) combine to enable agent-native transactions; the same app serves both human shoppers and AI agents that call tools via `navigator.modelContext`.
 
 ## Tutorials & Guides
 
@@ -92,6 +94,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [The Why and How of WebMCP – Alex Nahas (YouTube)](https://www.youtube.com/watch?v=YVWgoXWSvmk) — Alex Nahas, the creator of WebMCP, explains the origin story and the design decisions behind the standard.
 - [WebMCP: Agents on the Web and in the Browser (YouTube)](https://www.youtube.com/watch?v=6Po39iD6Pfs) — Deep-dive session with Alex Nahas covering how WebMCP enables client-side tool exposure without a separate MCP server.
 - [NEW Browser API That Makes AI Agents Actually Work – WebMCP (YouTube)](https://www.youtube.com/watch?v=jI2mYU8-PqU) — Accessible explainer of the Google/Microsoft-backed proposal and a live demo of the declarative and imperative APIs.
+- [WebMCP is MCP for Single Page Apps! – Jack Herrington (YouTube)](https://www.youtube.com/watch?v=IAfrzel524s) — Popular React educator Jack Herrington demonstrates how WebMCP brings MCP-style tool exposure to single-page applications, with live coding examples using the imperative API.
 
 ## Articles & Blog Posts
 
@@ -134,6 +137,10 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP: What Is It, And Why Should SEOs Care? – Similarweb](https://www.similarweb.com/blog/marketing/geo/webmcp/) — Data and analytics angle; uses Similarweb traffic data to illustrate the growing share of AI-agent referral traffic and why WebMCP matters.
 - [Implementing WebMCP: letting AI agents interact with my website – Richard MacManus](https://ricmac.org/2026/03/11/webmcp-ai-agents-interact-website/) — Hands-on account of adding WebMCP tools to a personal site, covering pitfalls and real-world results.
 - [The Agentic Web: how AI systems will change websites – Richard MacManus](https://ricmac.org/2026/04/07/the-agentic-web/) — April 2026 follow-up essay placing WebMCP inside the broader shift from human-facing UIs to agent-first web design.
+- [The Agentic Web stack – Richard MacManus](https://ricmac.org/2026/02/26/agentic-web-stack/) — February 2026 map of the emerging agentic web protocol stack, placing WebMCP at the tool-exposure layer alongside MCP; argues WebMCP gives power back to web publishers and operators.
+- [How to add AI to your website (without losing control) – Richard MacManus](https://ricmac.org/2026/04/22/how-to-add-ai-to-your-website/) — April 2026 practical guide to integrating AI features — including WebMCP tools — into a website while retaining editorial and functional control.
+- [Agentic web patterns: what Web 2.0 taught me – Richard MacManus](https://ricmac.org/2026/04/28/agentic-web-patterns-what-web-2-0-taught-me/) — Draws lessons from Web 2.0's participatory patterns and applies them to the agentic web era, with WebMCP as a key piece of the emerging infrastructure.
+- [The Full Stack of the Agentic Web: Why WebMCP is the New Schema.org Moment – WordLift](https://wordlift.io/blog/en/webmcp-is-the-new-schema-org/) — If Schema.org standardized the "nouns" of the web for a decade, WebMCP standardizes the "verbs"; WordLift draws the parallel between the 2011 Schema.org alignment and today's Google/Microsoft co-authorship of WebMCP.
 - [WebMCP: The Web Just Learned to Talk to AI Agents – ProductPower](https://productpower.substack.com/p/webmcp-the-web-just-learned-to-talk) — Product-strategy Substack post framing WebMCP as the most important infrastructure shift since MCP itself.
 - [WebMCP Adoption Timeline: When Will AI Agents Start Using Your Website Data? – Discovered Labs](https://discoveredlabs.com/blog/webmcp-adoption-timeline-when-will-ai-agents-start-using-your-website-data) — Forecasts the enterprise adoption curve and advises on when early implementation starts compounding.
 - [What Is Google WebMCP? – LightSite AI](https://www.lightsite.ai/blog/what-is-google-webmcp-and-what-it-means-for-marketers) — Marketing-focused explainer covering how WebMCP changes agentic discoverability and what marketers should do now.
@@ -158,6 +165,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [Polish technical summary of WebMCP – Leszek Bukowski](https://x.com/LeszBuk/status/2021290109417439642) — Polish-language thread on WebMCP as a new AI-agent interface that could replace the traditional human-facing UI.
 - ["¡La web va a cambiar para siempre con WebMCP!" – Miguel Ángel Durán (midudev)](https://x.com/midudev/status/2021599130624143689) — Spanish-language thread by one of the most-followed Spanish dev educators, explaining structured tools and the end of fragile DOM scraping.
 - [WebMCP early-preview Japanese summary – su8 / denchu](https://x.com/__su888/status/2028593440234287578) — Japanese concise breakdown of the Chrome 146 early-preview release, linking the official announcement.
+- [Marie Haynes – "The traditional web of human browsing is ending"](https://x.com/Marie_Haynes/status/2036843218889834502) — SEO expert Marie Haynes explains how Google's new AI protocols — MCP, A2A, and UCP — alongside WebMCP are replacing human-facing browsing with an agentic web where agents act without rendering pixels.
 
 ## Community Discussions
 
