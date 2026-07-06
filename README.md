@@ -82,6 +82,7 @@ The official companion library suite for WebMCP.
 
 ### Standalone Libraries
 
+- [Persona](https://github.com/runtypelabs/persona) - The world's first WebMCP-native AI chat UI. A framework-agnostic (vanilla JS), MIT-licensed chat widget you drop into any existing site — React, Vue, a legacy CMS, or static HTML — that discovers and executes WebMCP tools on the parent page, so you can build "copilot" experiences by hooking into your app's existing functionality instead of standing up bespoke agent APIs. Config-driven theming, built-in polyfills. npm `@runtypelabs/persona`, [live demo](https://www.persona-chat.dev/webmcp-slides.html).
 - [webmcp-react](https://github.com/MCPCat/webmcp-react) - React hooks for exposing typed tools via `navigator.modelContext`. Zod-first schemas, built-in polyfill, SSR-compatible (Next.js/Remix), and StrictMode-safe with reactive execution state tracking.
 - [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
 - [webmcp-next](https://github.com/dankelleher/next-webmcp) - Next.js plugin that auto-exposes API routes and server actions as WebMCP tools and resources. Zero-config `withWebMCP()` wrapper, source-level scanner with Zod schema support, and a `<WebMCPScript />` component for instant `navigator.modelContext` registration.
