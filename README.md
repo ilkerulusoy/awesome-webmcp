@@ -120,6 +120,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Inspector](https://webmcpinspector.com/) - Online inspector for testing and debugging WebMCP tool registrations.
 - [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
 - [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
+- [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill for Claude Code, Codex, Cursor, and 70+ other coding agents that makes an existing app agent-ready end to end: inventory → approved tool manifest → integrate → verify every tool in a real browser → heal. Vendored zero-dependency runtime, resumable runs.
 
 ---
 
