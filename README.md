@@ -2,7 +2,7 @@
 
 > A curated list of resources for **WebMCP** — the W3C browser-native standard that lets websites expose structured tools directly to AI agents via `navigator.modelContext`.
 
-WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026** and shipped as an early preview in **Chrome 146 Canary** behind the `chrome://flags/#enable-webmcp-testing` flag.
+WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026**, shipped as an early preview in **Chrome 146 Canary** behind the `chrome://flags/#enable-webmcp-testing` flag, and entered a public **origin trial in Chrome 149** (announced at Google I/O 2026, May 2026). Firefox support is committed for Q3 2026 and Safari for Q4 2026.
 
 ---
 
@@ -30,6 +30,8 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [W3C WebMCP Spec](https://webmachinelearning.github.io/webmcp/) — Official W3C Draft Community Group Report (Web Machine Learning Community Group).
 - [webmachinelearning/webmcp](https://github.com/webmachinelearning/webmcp) — The official spec repository on GitHub.
 - [WebMCP Inspector – Chrome Web Store](https://chromewebstore.google.com/detail/webmcp-inspector/ddmnodehiebeklbngpeeghmcohomfimd) — Official Chrome extension to test and inspect WebMCP tools on any page.
+- [Join the WebMCP origin trial – Chrome for Developers](https://developer.chrome.com/blog/ai-webmcp-origin-trial) — Official Chrome blog announcing the Chrome 149 origin trial for WebMCP; covers token registration, the new DevTools inspection panel, and how to test tools on production traffic.
+- [15 AI updates from Google I/O 2026 in Chrome – Chrome for Developers](https://developer.chrome.com/blog/chrome-at-io26) — Official round-up of Chrome's 15 major AI capabilities announced at Google I/O 2026, including WebMCP's graduation from a Canary flag to a public origin trial and the new DevTools agent panel.
 
 ## Specification & Explainers
 
@@ -129,6 +131,12 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP Explained: The New Standard That Turns Websites Into APIs for AI Agents – DEV Community](https://dev.to/lazyasscoder/webmcp-explained-the-new-standard-that-turns-websites-into-apis-for-ai-agents-38l) — Concise explainer comparing WebMCP's structured-tool model to traditional REST APIs and DOM scraping.
 - [WebMCP: Making the Web Deterministic for AI Agents – Medium](https://senoritadeveloper.medium.com/webmcp-making-the-web-deterministic-for-ai-agents-9f42dba425a3) — Nil Seri argues that WebMCP's typed schemas and explicit tool contracts eliminate the non-determinism that makes DOM-scraping agents unreliable.
 - [WebMCP: Your AI, Every Website — The Web's New Power Shift – Medium](https://medium.com/@vinesheg/webmcp-your-ai-every-website-the-webs-new-power-shift-97ad7c60c716) — Overview of how WebMCP shifts power to users by letting any AI assistant act on any site without site-specific plugins.
+- [WebMCP Standard Proposal for Agentic Web Actuation Now Available in Chrome (Origin Trials) – InfoQ](https://www.infoq.com/news/2026/06/webmcp-web-agent-standard-chrome/) — InfoQ's June 2026 coverage of WebMCP entering Chrome's origin trial, noting 67% fewer errors and 45% better task-completion rates versus visual scraping in early benchmarks.
+- [Chrome 149 origin trial puts WebMCP in developers' hands at last – PPC.land](https://ppc.land/chrome-149-origin-trial-puts-webmcp-in-developers-hands-at-last/) — Detailed breakdown of what changed when WebMCP moved from a Canary flag to a public origin trial: token registration, the new DevTools panel, and the cross-browser support roadmap.
+- [The State of WebMCP: July 2026 – Spronta](https://www.spronta.com/blog/state-of-webmcp-july-2026/) — Mid-year ecosystem report: Chrome's origin trial is live and Firefox is committed for Q3 2026, but real-site adoption and AI-agent consumers are still near zero.
+- [Google wants to make the web agent-ready – The New Stack](https://thenewstack.io/google-agent-ready-web/) — The New Stack's overview of Google's broader agentic-web push at I/O 2026, placing WebMCP within Chrome's full AI agent toolset (DevTools MCP, HTML-in-Canvas, Gemini integration).
+- [Google WebMCP Needs Knowledge Layer for AI Agents – Human Delta](https://www.humandelta.ai/blog/google-webmcp-knowledge-layer-ai-agents) — Argues that WebMCP's structured tool layer needs a complementary knowledge layer to help agents discover which tools to invoke and when, or adoption will stall at the supply side.
+- [The State of Agentic AI Standards in 2026: MCP, A2A, WebMCP, and the Protocol Stack – DEV Community](https://dev.to/alexmercedcoder/the-state-of-agentic-ai-standards-in-2026-mcp-a2a-webmcp-osi-and-the-protocol-stack-taking-3o2l) — Comprehensive mid-2026 overview of how WebMCP fits into the full agentic standards stack alongside MCP, A2A, and OSI.
 - [Chrome's WebMCP could end AI agents' pixel-parsing nightmare – PPC.land](https://ppc.land/chromes-webmcp-could-end-ai-agents-pixel-parsing-nightmare/) — PPC industry perspective on how structured tool calls replace fragile screenshot-based automation.
 - [What is WebMCP? The New Protocol for AI-Optimized SEO in 2026 – NEURONwriter](https://neuronwriter.com/what-is-webmcp-ai-optimized-seo-2026/) — SEO content-tool perspective explaining how WebMCP shifts search optimization from keywords to structured capability declarations.
 - [WebMCP: What Is It, And Why Should SEOs Care? – Similarweb](https://www.similarweb.com/blog/marketing/geo/webmcp/) — Data and analytics angle; uses Similarweb traffic data to illustrate the growing share of AI-agent referral traffic and why WebMCP matters.
