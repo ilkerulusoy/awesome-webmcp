@@ -82,7 +82,7 @@ The official companion library suite for WebMCP.
 
 ### Standalone Libraries
 
-- [agentk](https://github.com/stevysmith/agentk) - React command palette forked from cmdk: describe your app's capabilities once as JSON Schema tools, and the palette auto-generates their parameter forms while the same catalog feeds `registerTool()` so in-browser agents can call whatever humans can. Feature-detects `document.modelContext` (Chrome 150+) with `navigator.modelContext` fallback, polls for the late-arriving origin-trial surface, registers with an `AbortSignal`, and unregisters everything on unmount — no WebMCP just means a plain palette. Optional agent mode plans tool calls via Anthropic, OpenAI, or Gemini behind an opt-in approval screen. Runs in production on [stacktr.ee](https://stacktr.ee); npm `@stevysmith/agentk`, [live demo](https://agentk.stacktr.ee).
+- [agentk](https://github.com/stevysmith/agentk) - Command palette (cmdk fork) that exposes your app's capabilities as JSON Schema tools: it auto-generates their forms for humans and registers the same catalog via `navigator.modelContext` for in-browser agents, with an optional human-in-the-loop agent mode (Anthropic, OpenAI, or Gemini). npm `@stevysmith/agentk`, [live demo](https://agentk.stacktr.ee).
 - [Persona](https://github.com/runtypelabs/persona) - The world's first WebMCP-native AI chat UI. A framework-agnostic (vanilla JS), MIT-licensed chat widget you drop into any existing site — React, Vue, a legacy CMS, or static HTML — that discovers and executes WebMCP tools on the parent page, so you can build "copilot" experiences by hooking into your app's existing functionality instead of standing up bespoke agent APIs. Config-driven theming, built-in polyfills. npm `@runtypelabs/persona`, [live demo](https://www.persona-chat.dev/webmcp-slides.html).
 - [webmcp-react](https://github.com/MCPCat/webmcp-react) - React hooks for exposing typed tools via `navigator.modelContext`. Zod-first schemas, built-in polyfill, SSR-compatible (Next.js/Remix), and StrictMode-safe with reactive execution state tracking.
 - [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
@@ -107,13 +107,12 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ### Community Demos
 
-- [Stacktree dashboard](https://stacktr.ee) - Production SaaS dashboard where one agentk tool catalog serves both the Cmd-K palette for humans and WebMCP registrations for in-browser agents — the same site-management tools (publish, update, gate) either way.
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
-- [Scholar Sidekick](https://scholar-sidekick.com) - Citation resolver, formatter, and fabrication checker that registers six WebMCP tools (`resolveIdentifier`, `formatCitation`, `exportCitation`, `verifyCitation`, `checkRetraction`, `checkOpenAccess`) on `navigator.modelContext`, so in-browser agents can resolve DOIs/PMIDs/arXiv IDs, format citations in 10,000+ styles, and check retraction, open-access, and fabrication status without scraping.
+- [Scholar Sidekick](https://scholar-sidekick.com) - Citation resolver and fabrication checker that registers six WebMCP tools on `navigator.modelContext` to resolve DOIs/PMIDs/arXiv IDs, format 10,000+ citation styles, and check retraction and open-access status without scraping.
 
 ---
 
@@ -124,6 +123,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
 - [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
 - [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill for Claude Code, Codex, Cursor, and 70+ other coding agents that makes an existing app agent-ready end to end: inventory → approved tool manifest → integrate → verify every tool in a real browser → heal. Vendored zero-dependency runtime, resumable runs.
+- [webmaxru/web-ai-agent-skills: WebMCP](https://github.com/webmaxru/web-ai-agent-skills/tree/main/skills/webmcp) - Agent skill for shipping and debugging `navigator.modelContext` integrations in existing JS/TS apps, with guidance for declarative forms, tool schemas, and preview validation.
 
 ---
 
