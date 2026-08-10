@@ -113,6 +113,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
 - [Scholar Sidekick](https://scholar-sidekick.com) - Citation resolver and fabrication checker that registers six WebMCP tools on `navigator.modelContext` to resolve DOIs/PMIDs/arXiv IDs, format 10,000+ citation styles, and check retraction and open-access status without scraping.
+- [QR Code Crafter](https://qrcodecrafter.com/qr-code-readability-lab) - Agent-native QR production workflow that generates, structurally reviews, decodes, and hash-checks SVG, PNG, JPG, or WebP exports; failed decoding or payload mismatch returns no asset bytes.
 
 ---
 
