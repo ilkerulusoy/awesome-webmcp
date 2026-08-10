@@ -108,13 +108,14 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 ### Community Demos
 
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
-- [isainative.dev](https://isainative.dev/) - Audit public GitHub repositories for AI coding readiness. Exposing both declarative and imperative WebMCP tools.
+- [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
 - [Scholar Sidekick](https://scholar-sidekick.com) - Citation resolver and fabrication checker that registers six WebMCP tools on `navigator.modelContext` to resolve DOIs/PMIDs/arXiv IDs, format 10,000+ citation styles, and check retraction and open-access status without scraping.
-- [QR Code Crafter](https://qrcodecrafter.com/qr-code-readability-lab) - Agent-native QR production workflow that generates, structurally reviews, decodes, and hash-checks SVG, PNG, JPG, or WebP exports; failed decoding or payload mismatch returns no asset bytes.
+- [QR Code Crafter](https://qrcodecrafter.com/qr-code-readability-lab) - Agent-native QR generation that verifies its own output: every SVG, PNG, JPG, or WebP export is decoded back and hash-checked against the requested payload, and a mismatch returns a failure receipt instead of the file.
+- [Agent Ready](https://agent-ready.dev) - Scores any URL 0-100 for agent readability and returns the full structured result to the agent via `scan_site` / `get_scan`, plus an `ask` tool for natural-language search over the scanned site.
 
 ---
 
@@ -123,6 +124,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) - Official toolkit: Model Context Tool Inspector extension, CLI utilities, and demo suite.
 - [WebMCP Inspector](https://webmcpinspector.com/) - Online inspector for testing and debugging WebMCP tool registrations.
 - [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
+- [WebMCP Tool Validator](https://admintoolkit.io/webmcp-tool-validator/) - Validates WebMCP tool registrations and schemas in the browser. Part of a wider suite of read-only diagnostic tools on admintoolkit.io.
 - [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
 - [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill for Claude Code, Codex, Cursor, and 70+ other coding agents that makes an existing app agent-ready end to end: inventory → approved tool manifest → integrate → verify every tool in a real browser → heal. Vendored zero-dependency runtime, resumable runs.
 - [webmaxru/web-ai-agent-skills: WebMCP](https://github.com/webmaxru/web-ai-agent-skills/tree/main/skills/webmcp) - Agent skill for shipping and debugging `navigator.modelContext` integrations in existing JS/TS apps, with guidance for declarative forms, tool schemas, and preview validation.
