@@ -20,6 +20,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [Community Discussions](#community-discussions)
 - [Platform Integrations](#platform-integrations)
 - [Tools & Utilities](#tools--utilities)
+- [Benchmarks](#benchmarks)
 
 ---
 
@@ -181,6 +182,11 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 
 - [WebMCP Checker](https://webmcp-checker.com/) — Free online tool to check if any website exposes WebMCP tools.
 - [WebMCP Cheat Sheet – Webfuse](https://www.webfuse.com/webmcp-cheat-sheet) — Quick-reference card covering the full W3C Browser AI Tool API: declarative HTML attributes, imperative `navigator.modelContext` calls, manifest format, and common pitfalls.
+- [WebMCP Kit](https://github.com/nekuda-ai/webmcp-kit) — Plugin for coding agents with an interactive visual Explorer that maps a site's user journeys to proposed WebMCP tools for review and approval, then implements and verifies them in a real browser.
+
+## Benchmarks
+
+- [WindTunnel](https://github.com/nekuda-ai/WindTunnel) — Open-source benchmark comparing WebMCP with other browser-agent interfaces across task success, execution time, token usage, and cost.
 
 ---
 
