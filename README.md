@@ -52,6 +52,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [hemanth/webmcp-bridge](https://github.com/hemanth/webmcp-bridge) — Browser app that turns remote MCP servers into browser-usable tool context, discovering and registering their capabilities via `navigator.modelContext`.
 - [hemanth/webmcp-connect](https://github.com/hemanth/webmcp-connect) — Connect any MCP server to Chrome's WebMCP API; bridges existing MCP tooling into the browser's native `navigator.modelContext` interface.
 - [littleplato/webmcp-cdp-bridge](https://github.com/littleplato/webmcp-cdp-bridge) — Local bridge (Bun + TypeScript, MCP over stdio) that exposes `navigator.modelContext` tools registered in a browser tab as MCP tools for Claude Desktop, Claude Code, and Cursor via Chrome DevTools Protocol.
+- [simple-webmcp](https://github.com/emingure/simple-webmcp) — Turns existing JavaScript and TypeScript functions into WebMCP tools with `webmcp(fn)`, keeping them callable while supporting schema patching, React lifecycle helpers, and execution hooks for approvals and analytics.
 
 ## Chrome Extensions & DevTools
 
