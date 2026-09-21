@@ -55,6 +55,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 
 ## Chrome Extensions & DevTools
 
+- [WebMCP Explorer](https://github.com/MicrosoftEdge/webmcp-labs/tree/main/webmcp-explorer) — Browser extension for inspecting and executing WebMCP tools, with an autonomous agent loop and support for multiple LLM providers.
 - [WebMCP – Model Context Tool Inspector](https://chromewebstore.google.com/detail/webmcp-model-context-tool/gbpdfapgefenggkahomfgkhfehlcenpd) — Inspect, monitor, and execute tools exposed via `navigator.modelContext`; shows full JSON schema and lets you run tools from the DevTools panel.
 - [beaufortfrancois/model-context-tool-inspector](https://github.com/beaufortfrancois/model-context-tool-inspector) — Source code for the Model Context Tool Inspector Chrome extension.
 - [WebMCP-org/chrome-devtools-quickstart](https://github.com/WebMCP-org/chrome-devtools-quickstart) — Minimal quickstart demo for using Chrome DevTools MCP with WebMCP tools.
@@ -66,6 +67,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 
 ## Demos & Examples
 
+- [Demos](https://github.com/MicrosoftEdge/webmcp-labs#samples) — WebMCP demos by Microsoft Edge.
 - [WebMCP-org/examples](https://github.com/WebMCP-org/examples) — Production-ready MCP-B browser-native MCP implementation examples.
 - [WebMCP-org/webmcp-sh](https://github.com/WebMCP-org/webmcp-sh) — Web-based MCP playground for testing and developing MCP servers and clients in the browser.
 - [Halmob Contact Page – Live WebMCP Example](https://halmob.com/contact) — Real-world contact form with WebMCP implemented; AI agents on Chrome 146+ can discover and submit it via both declarative and imperative pathways.
