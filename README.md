@@ -84,6 +84,7 @@ WebMCP was launched as a W3C Draft Community Group Report on **February 10, 2026
 - [WebMCP and WebAI: Exploring native AI tools in Chrome – DEV Community](https://dev.to/kevin-uehara/webmcp-and-webai-exploring-native-ai-tools-in-chrome-4ocf) — Side-by-side look at WebMCP and Chrome's built-in AI (Prompt API / WebAI) and how they complement each other.
 - [Connect WebMCP Browser Tools to Claude Code – MCPcat](https://mcpcat.io/guides/connect-webmcp-tools-claude-code-bridge-extension/) — Step-by-step guide to bridging `navigator.modelContext` tools registered in a live browser tab into Claude Code via the WebMCP Bridge extension.
 - [Implementing WebMCP on a Recruitment Website – DEV Community](https://dev.to/richardbaxter/implementing-webmcp-on-a-recruitment-website-19a) — Real-world case study wiring up WebMCP tools on an actual recruitment site; useful domain-specific reference beyond e-commerce examples.
+- [WebMCP Security Checklist – WebMCPly contributors](https://github.com/raghav453/webmcp-security-checklist) — A practical threat model, authorization and confirmation review, replay safeguards, and negative-test evidence matrix for structured website tools.
 
 ## Videos
 
